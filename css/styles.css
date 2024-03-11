@@ -1,0 +1,45 @@
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .container {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .wrapper:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(191, 86, 86);
+  }
+  
+  .wrapper:nth-child(2) {
+    z-index: 1;
+    position: absolute;
+    top: 110px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(64, 64, 169);
+  }
+  
+  .wrapper:nth-child(3) {
+    position: absolute;
+    top: 215px;
+    left: 240px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(53, 156, 55);
+  }
